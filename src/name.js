@@ -1,11 +1,10 @@
 const NAME = "NAME";
-const HOURSTATUS = "HOURSTATUS";
 const inputForm = document.querySelector(".js-inputForm"),
   inputName = inputForm.querySelector("input"),
   nameDiv = document.querySelector(".js-name");
 
 function printName(name) {
-  const hourStatus = localStorage.getItem(HOURSTATUS);
+  const hourStatus = localStorage.getItem("HOURSTATUS");
   const label = document.createElement("label");
   label.innerHTML = `Good ${hourStatus}, ${name}`;
 
