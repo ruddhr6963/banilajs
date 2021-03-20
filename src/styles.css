@@ -55,6 +55,7 @@ input::placeholder {
 .todo {
   text-align: center;
   color: white;
+  margin-top: 50px;
 }
 
 .pending {
