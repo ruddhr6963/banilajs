@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./src/styles.css";
 
 const body = document.querySelector("body");
 
