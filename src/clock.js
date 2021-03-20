@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const HOURS12CLOCK = "HOURS12CLOCK";
 const HOURSTATUS = "HOURSTATUS";
 const clockContainer = document.querySelector(".js-clock"),

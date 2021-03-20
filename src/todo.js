@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const toDoForm = document.querySelector(".js-toDoForm"),
   inputTodo = toDoForm.querySelector("input"),
   pending = document.querySelector(".js-pending"),

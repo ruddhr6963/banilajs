@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const NAME = "NAME";
 const HOURSTATUS = "HOURSTATUS";
 const inputForm = document.querySelector(".js-inputForm"),

@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const API_KEY = "c31aa88fc3c66116a6ffb4cf848d1b93";
 const COORDS = "COORDS";
 const weatherContainer = document.querySelector(".js-weather");
