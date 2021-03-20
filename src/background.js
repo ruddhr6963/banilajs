@@ -2,7 +2,7 @@ import "./styles.css";
 
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 8;
+const IMG_NUMBER = 10;
 
 function paintImage(imgNumber) {
   const image = new Image();
