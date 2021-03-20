@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momontom</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="js-clock clock">
+        <label>00:00</label>
+      </div>
+      <div class="input">
+        <form class="js-inputForm inputForm showing">
+          <input type="text" placeholder="이름을 입력하세요." />
+        </form>
+        <div class="js-name"></div>
+      </div>
+      <div class="todo">
+        <h2>TODO LIST</h2>
+        <form class="js-toDoForm inputForm">
+          <input type="text" placeholder="할 일을 입력하세요." />
+        </form>
+        <div class="pending align">
+          <h3>할 일 목록</h3>
+          <ul class="js-pending"></ul>
+        </div>
+        <div class="finished align">
+          <h3>완료</h3>
+          <ul class="js-finished"></ul>
+        </div>
+      </div>
+      <div class="js-weather weather"></div>
+    </div>
+    <script src="src/index.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/name.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/background.js"></script>
+  </body>
+</html>
