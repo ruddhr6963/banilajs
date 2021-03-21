@@ -4,7 +4,7 @@ const weatherContainer = document.querySelector(".js-weather");
 
 function printTemperature(temperature, place) {
   const label = document.createElement("label");
-  label.innerText = `${temperature} @ ${place}`;
+  label.innerText = `${temperature}℃ \n ${place}`;
   weatherContainer.appendChild(label);
 }
 

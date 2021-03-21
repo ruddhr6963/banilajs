@@ -9,7 +9,7 @@ function printName(name) {
   label.innerHTML = `Good ${hourStatus}, ${name}`;
 
   nameDiv.appendChild(label);
-  nameDiv.classList.add("labelName");
+  nameDiv.classList.add("input");
 }
 
 function getName() {
